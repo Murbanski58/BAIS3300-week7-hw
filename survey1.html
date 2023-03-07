@@ -19,7 +19,7 @@
             </div>
             <div>
             <label for="lname"> Last name:
-                <input id="lname" type="text">
+                <input id="lname" type="text" >
             </label>
             </div>
             <div>
@@ -29,7 +29,9 @@
             </div>
         </fieldset>
         <div>
-            <label for="gender"> What gender do you identify as?
+            <fieldset>
+                <legend>What gender do you identify as?</legend>
+            <label for="gender"> 
                 <select name="gender" id="gender">
                     <option value="gender"> Gender </option>
                     <option value="male"> Male </option>
@@ -41,6 +43,23 @@
                 </select>
 
             </label>
+        </fieldset>   
+    </div>
+        <div>
+            <fieldset>
+                <legend>What age range are you in?</legend>
+        <label for="18-21"> 
+            <input type="radio" id="18-21" name="age" value="18-21"> 18-21 years old
+        </label>
+        
+        <label for="22-45">
+            <input type="radio" id="22-45" name="age" value="22-45"> 22-45 years old
+        </label>
+        
+        <label for="45&up">
+        <input type="radio" id="45&up" name="age" value="45&up"> 45 years or older
+        </label>  
+        </fieldset>
         </div>
     </form>
     <p>
