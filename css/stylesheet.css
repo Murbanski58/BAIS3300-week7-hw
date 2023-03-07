@@ -1,1 +1,25 @@
-body{ background-color: aliceblue;}
+body{ 
+    background-color: aliceblue;
+}
+
+h1{
+    color: rgb(64, 43, 226);
+}
+
+button{
+    background-color: rgb(64, 43, 226);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+a:link {
+    color: rgb(64, 43, 226);
+}
+a:visited {
+    color: rgb(64, 43, 226);
+}
+a:hover {
+    color: rgb(98, 87, 180) ;
+}
