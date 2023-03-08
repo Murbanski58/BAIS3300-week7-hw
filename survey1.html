@@ -14,12 +14,13 @@
             <legend>Contact Information</legend>
             <div>
             <label for="fname"> First name:
-                <input id="fname" type="text" autofocus tabindex="1">
+                <input id="fname" type="text" autofocus tabindex="1" required>
             </label>
             </div>
             <div>
             <label for="lname"> Last name:
-                <input id="lname" type="text" >
+                <input id="lname" type="text" required>
+        
             </label>
             </div>
             <div>
@@ -32,7 +33,7 @@
             <fieldset>
                 <legend>What gender do you identify as?</legend>
             <label for="gender"> 
-                <select name="gender" id="gender">
+                <select type = "dropdown" name="gender" id="gender" >
                     <option value="gender"> Gender </option>
                     <option value="male"> Male </option>
                     <option value="female"> Female </option>
@@ -47,19 +48,27 @@
     </div>
         <div>
             <fieldset>
-                <legend>What age range are you in?</legend>
-        <label for="18-21"> 
-            <input type="radio" id="18-21" name="age" value="18-21"> 18-21 years old
+                <legend>What grade are you in at the University of Iowa?</legend>
+      
+        <label for="first">
+            <input type="radio" id="first" name="grade" value="first"> First year
         </label>
         
-        <label for="22-45">
-            <input type="radio" id="22-45" name="age" value="22-45"> 22-45 years old
-        </label>
-        
-        <label for="45&up">
-        <input type="radio" id="45&up" name="age" value="45&up"> 45 years or older
+        <label for="second">
+        <input type="radio" id="second" name="grade" value="second"> Second year
         </label>  
-        </fieldset>
+
+        <label for="third">
+            <input type="radio" id="third" name="grade" value="third"> Third year
+        </label>
+
+        <label for="fourth">
+                <input type="radio" id="fourth" name="grade" value="fourth"> Fourth year
+         </label>
+        <label for="fifth">
+            <input type="radio" id="fifth" name="grade" value="fifth"> Fifth year and beyond
+        </label>
+    </fieldset>
         </div>
     </form>
     <p>
@@ -67,12 +76,13 @@
             Next  
           </button>
     </p>
-    <p>
-        This information is for internal use only.
-    </p>
+   
     <p> &NonBreakingSpace;</p>
     <p> &NonBreakingSpace;</p>
     <p><a href="./index.html"> To Home  </a></p>
+    <p>
+       <em> This information is for internal use only.</em>
+    </p>
     <p>Page 1 of 2</p>
 </body>
 

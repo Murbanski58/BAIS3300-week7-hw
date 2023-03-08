@@ -1,13 +1,15 @@
 body{ 
     background-color: aliceblue;
+    
 }
 
 h1{
-    color: rgb(64, 43, 226);
+    color: rgb(0, 0, 114);
 }
 
+
 button{
-    background-color: rgb(64, 43, 226);
+    background-color:rgb(0, 0, 114);
     color: white;
 }
 
@@ -15,10 +17,10 @@ a{
     text-decoration: none;
 }
 a:link {
-    color: rgb(64, 43, 226);
+    color:rgb(0, 0, 114);
 }
 a:visited {
-    color: rgb(64, 43, 226);
+    color: rgb(0, 0, 114);
 }
 a:hover {
     color: rgb(98, 87, 180) ;
